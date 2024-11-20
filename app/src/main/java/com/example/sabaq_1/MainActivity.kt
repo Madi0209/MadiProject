@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.knopka.setOnClickListener {
             binding.sozTextView.text = "Android Developer :)"
-            println("Hello world!")
         }
     }
 }
